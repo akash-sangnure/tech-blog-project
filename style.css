@@ -1,6 +1,8 @@
+body{
+	background-color:#12232E;
+}
 #text{
 	height: 25px;
-	border-radius: 5px;
 	padding: 4px;
 	width : 100%;
 	border:solid thin #aaa;
@@ -20,4 +22,30 @@
 	margin: auto;
 	width: 500px;
 	padding: 30px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+hr{
+	height: 1px;
+	background-color: white;
+	border: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+	grid-gap: 20px;
+}
+.grid-child-sidebar{
+	text-align: center;
+	background-color:#007CC7;
+	height: 100%;
+}
+.grid-child-content{
+	text-align: left;
+	background-color:#EEFBFB;
+	width : 1200px;
+	height: 100%;
 }
