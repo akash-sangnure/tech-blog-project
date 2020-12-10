@@ -9,3 +9,10 @@ related to
 **C++**
 **C**
 **Python**
+
+
+source:
+https://www.w3schools.com/
+https://www.tutorialspoint.com/index.htm
+https://www.geeksforgeeks.org/
+https://www.w3resource.com/
