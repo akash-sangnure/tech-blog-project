@@ -46,8 +46,8 @@
 	<div id = "box">
 		<form method = "post">
 			<div style="font-size: 20px; margin: 10px; color: #c3b9b9">Login</div>
-			<input id = "text" type="text" name="user_name"><br><br>
-			<input id = "text" type="password" name="password"><br><br>
+			<input id = "text" type="text" name="user_name" placeholder="User name"><br><br>
+			<input id = "text" type="password" name="password" placeholder="Password"><br><br>
 			<input id = "button" type="submit" value="Login"><br><br>
 			<a href="signup.php" style="text-decoration: none;color:red">click to Sign Up</a>			
 		</form>
