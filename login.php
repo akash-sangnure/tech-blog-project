@@ -8,7 +8,7 @@
 		//something was posted
 		$user_name = $_POST['user_name'];
 		$password = $_POST['password'];
-
+		
 		if(!empty($user_name) && !empty($password)){
 			//read from database
 			$query = "select * from users where user_name = '$user_name' limit 1";
@@ -38,8 +38,8 @@
 	<div id = "box">
 		<form method = "post">
 			<div style="font-size: 20px; margin: 10px; color: #c3b9b9">Login</div>
-			<input id = "text" type="text" name="user_name" placeholder="User name"><br><br>
-			<input id = "text" type="password" name="password" placeholder="Password"><br><br>
+			<input id = "text" type="text" name="user_name" placeholder = "Username" ><br><br>
+			<input id = "text" type="password" name="password" placeholder ="Password"><br><br>
 			<input id = "button" type="submit" value="Login"><br><br>
 			<a href="signup.php" style="text-decoration: none;color:red">click to Sign Up</a>			
 		</form>
