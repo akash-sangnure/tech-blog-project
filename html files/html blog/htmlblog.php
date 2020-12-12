@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../../style.css">
     </head>
     <body >
         
@@ -20,11 +20,11 @@
             }
         </style>
         <nav class="navbar navbar-light bg-dark justify-content-between" >
-            <a style="color:white" class="navbar-brand" href="../index.php">Home</a>
-            <a style="color:white" class="navbar-brand" href="../signup.php">Sign Up</a>
-            <a style="color:white" class="navbar-brand" href="../login.php">Login</a>
-            <a style="color:white" class="navbar-brand" href="../logout.php">Logout</a>
-            <a style="color:white" class="navbar-brand" href="../profile.php">View profile</a>
+            <a style="color:white" class="navbar-brand" href="../../index.php">Home</a>
+            <a style="color:white" class="navbar-brand" href="../../signup.php">Sign Up</a>
+            <a style="color:white" class="navbar-brand" href="../../login.php">Login</a>
+            <a style="color:white" class="navbar-brand" href="../../logout.php">Logout</a>
+            <a style="color:white" class="navbar-brand" href="../../profile.php">View profile</a>
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search Users" aria-label="Search users">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -38,7 +38,7 @@
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 <br><a href="htmlblog.php">HTML</a><br><br>
-                <a href="cssblog.php">CSS</a><br><br>
+                <a href="../css blog/cssblog.php">CSS</a><br><br>
                 <a href="gtmlblog.php">C++</a><br><br>
                 <a href="htmlblog.php">JAVA</a><br><br>
                 <a href="htmlblog.php">C</a><br><br>

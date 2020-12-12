@@ -43,8 +43,8 @@ session_start();
 
 	<div class="grid-container">
 		<div class = "grid-child-sidebar">
-			<a href="html files/htmlblog.php">HTML</a><br><br>
-			<a href="html files/cssblog.php">CSS</a><br><br>
+			<a href="html files/html blog/htmlblog.php">HTML</a><br><br>
+			<a href="html files/css blog/cssblog.php">CSS</a><br><br>
 			<a href="html files/htmlblog.html">C++</a><br><br>
 			<a href="html files/htmlblog.html">JAVA</a><br><br>
 			<a href="html files/htmlblog.html">C</a><br><br>
