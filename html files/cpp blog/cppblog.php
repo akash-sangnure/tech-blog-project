@@ -25,14 +25,14 @@
             </form>
         </nav>
 
-        <img style = "height: 400px;width: 100%; padding:30px" src="cssImage.png"  alt="css image">  
+        <img style = "height: 400px;width: 100%; padding:30px" src="cppImage.png"  alt="css image">  
         <hr>
 
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 <br><a href="../html blog/htmlblog.php">HTML</a><br><br>
-                <a href="cssblog.php">CSS</a><br><br>
-                <a href="./cpp blog/cppblog.php">C++</a><br><br>
+                <a href="../css blog/cssblog.php">CSS</a><br><br>
+                <a href="cppblog.php">C++</a><br><br>
                 <a href="../java blog/javablog.php">JAVA</a><br><br>
                 <a href="../c blog/cblog.php">C</a><br><br>
                 <a href="../python blog/pythonblog.php">PYTHON</a><br><br>
@@ -40,6 +40,7 @@
             <div class="grid-child-content">
             <p >
                 
+                <!-- copy content here -->
             </p>
             </div>
         </div>

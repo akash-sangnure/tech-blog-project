@@ -39,10 +39,10 @@
             <div class="grid-child-sidebar" >
                 <br><a href="htmlblog.php">HTML</a><br><br>
                 <a href="../css blog/cssblog.php">CSS</a><br><br>
-                <a href="gtmlblog.php">C++</a><br><br>
-                <a href="htmlblog.php">JAVA</a><br><br>
-                <a href="htmlblog.php">C</a><br><br>
-                <a href="htmlblog.php">PYTHON</a><br><br>
+                <a href="../cpp blog/cppblog.php">C++</a><br><br>
+                <a href="../java blog/javablog.php">JAVA</a><br><br>
+                <a href="../c blog/cblog.php">C</a><br><br>
+                <a href="../python blog/pythonblog.php">PYTHON</a><br><br>
             </div>
             <div class="grid-child-content">
             <p >

@@ -45,10 +45,10 @@ session_start();
 		<div class = "grid-child-sidebar">
 			<a href="html files/html blog/htmlblog.php">HTML</a><br><br>
 			<a href="html files/css blog/cssblog.php">CSS</a><br><br>
-			<a href="html files/htmlblog.html">C++</a><br><br>
-			<a href="html files/htmlblog.html">JAVA</a><br><br>
-			<a href="html files/htmlblog.html">C</a><br><br>
-			<a href="html files/htmlblog.html">PYTHON</a><br><br>
+			<a href="html files/cpp blog/cppblog.php">C++</a><br><br>
+			<a href="html files/java blog/javablog.php">JAVA</a><br><br>
+			<a href="html files/c blog/cblog.php">C</a><br><br>
+			<a href="html files/python blog/pythonblog.php">PYTHON</a><br><br>
 		</div>
         <div style = "color: white; padding:30px; padding-left : 400px">
 			<h2>Hello</h2>
