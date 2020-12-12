@@ -3,7 +3,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass= "";
-$dbname= "social_network";
+$dbname= "education_website";
 
 $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 

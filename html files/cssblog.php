@@ -25,7 +25,7 @@
             </form>
         </nav>
 
-        <h1 style="text-align:center; color:white; font-family:Times New Roman;" class="display-1 ">CSS</h1>
+        <img style = "height: 400px;width: 100%; padding:30px" src="cssImage.png"  alt="css image">  
         <hr>
 
         <div class="grid-container">

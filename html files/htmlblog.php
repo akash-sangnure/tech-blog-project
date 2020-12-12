@@ -12,7 +12,13 @@
         <link rel="stylesheet" href="../style.css">
     </head>
     <body >
-
+        
+        <style>
+            .head-image{
+                height: 400px;
+                width : 100%;
+            }
+        </style>
         <nav class="navbar navbar-light bg-dark justify-content-between" >
             <a style="color:white" class="navbar-brand" href="../index.php">Home</a>
             <a style="color:white" class="navbar-brand" href="../signup.php">Sign Up</a>
@@ -25,7 +31,8 @@
             </form>
         </nav>
 
-        <h1 style="text-align:center; color:white; font-family:Times New Roman;" class="display-1 ">HTML</h1>
+        
+        <img style = "height: 400px;width: 100%; padding:30px" src="htmlImage.png" alt="html image">
         <hr>
 
         <div class="grid-container">
