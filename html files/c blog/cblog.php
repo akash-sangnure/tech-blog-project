@@ -27,7 +27,7 @@
 
         <img style = "height: 400px;width: 100%; padding:30px" src="cImage.png"  alt="css image">  
         <hr>
-
+        
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 <br><a href="../html blog/htmlblog.php">HTML</a><br><br>
@@ -39,8 +39,47 @@
             </div>
             <div class="grid-child-content">
             <p >
+            <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C Programming</h1>
+            
+            <br>C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
+            
+            <div style="text-align: center;"><br><strong><h3>Why to Learn C Programming?</h3></strong><br></div>
+            C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:
+            <ul>
+                <li>Easy to learn</li>
+                <li>Structured language</li>
+                <li>It produces efficient programs</li>
+                <li>It can handle low-level activities</li>
+                <li>It can be compiled on a variety of computer platforms</li>
+            </ul>
+
+            <div style="text-align: center;"><br><strong><h3>Facts about C</h3></strong><br></div>
+            <ul>
+                <li>C was invented to write an operating system called UNIX.</li>
+                <li>C is a successor of B language which was introduced around the early 1970s.</li>
+                <li>The language was formalized in 1988 by the American National Standard Institute (ANSI).</li>
+                <li>The UNIX OS was totally written in C.</li>
+                <li>Today C is the most widely used and popular System Programming Language.</li>
+                <li>Most of the state-of-the-art software have been implemented using C.</li>            
+            </ul>
+
+            <div style="text-align: center;"><br><strong><h3>Applications of C Programming</h3></strong><br></div>
+            C was initially used for system development work, particularly the programs that make-up the operating system. C was adopted as a system development language because it produces code that runs nearly as fast as the code written in assembly language. Some examples of the use of C are -
+            <ul>
+                <li>Operating Systems
+                <li>Language Compilers
+                <li>Assemblers
+                <li>Text Editors
+                <li>Print Spoolers
+                <li>Network Drivers
+                <li>Modern Programs
+                <li>Databases
+                <li>Language Interpreters
+                <li>Utilities
+            </ul>
+            
+
                 
-                <!-- copy content here -->
             </p>
             </div>
         </div>

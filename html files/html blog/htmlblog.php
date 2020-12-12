@@ -46,6 +46,7 @@
             </div>
             <div class="grid-child-content">
             <p >
+            <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">HTML tutorial</h1>
                 <br>HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. HTML was created by Berners-Lee in late 1991 but "HTML 2.0" was the first standard HTML specification which was published in 1995. HTML 4.01 was a major version of HTML and it was published in late 1999. Though HTML 4.01 version is widely used but currently we are having HTML-5 version which is an extension to HTML 4.01, and this version was published in 2012.<br>
 
                 <div style="text-align: center;"><br><strong><h3>Why to Learn HTML?</h3></strong><br></div>

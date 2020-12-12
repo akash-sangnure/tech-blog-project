@@ -32,13 +32,15 @@
             <div class="grid-child-sidebar" >
                 <br><a href="../html blog/htmlblog.php">HTML</a><br><br>
                 <a href="cssblog.php">CSS</a><br><br>
-                <a href="./cpp blog/cppblog.php">C++</a><br><br>
+                <a href="../cpp blog/cppblog.php">C++</a><br><br>
                 <a href="../java blog/javablog.php">JAVA</a><br><br>
                 <a href="../c blog/cblog.php">C</a><br><br>
                 <a href="../python blog/pythonblog.php">PYTHON</a><br><br>
             </div>
             <div class="grid-child-content">
             <p >
+            <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">CSS tutorial</h1>
+
             <br>CSS is used to control the style of a web document in a simple and easy way.
             CSS is the acronym for "Cascading Style Sheet". This tutorial covers both the versions CSS1,CSS2 and CSS3, and gives a complete understanding of CSS, starting from its basics to advanced concepts.
 

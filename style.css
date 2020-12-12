@@ -45,9 +45,11 @@ hr{
 }
 .grid-child-content{
 	text-align: left;
-	background-color:#EEFBFB;
+	background-color:lightgrey;
+	text-indent:size;
 	width : 1200px;
 	height: 100%;
+	
 }
 .img{
 	position: absolute;
