@@ -32,7 +32,7 @@ session_start();
 		<a style="color:white" class="navbar-brand" href="logout.php">Logout</a>
 		<a style="color:white" class="navbar-brand" href="profile.php">View profile</a>
 		<form class="form-inline">
-			<input class="form-control mr-sm-2" type="search" placeholder="Search Users" aria-label="Search users">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search info" aria-label="Search users">
 			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 		</form>
 	</nav>
