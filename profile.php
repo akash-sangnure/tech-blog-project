@@ -30,7 +30,7 @@ session_start();
 	</nav>
 
     <div>
-	<h3 id="box"style="text-left: center; color:white">
+	<h3 id="box" style="color:white; text-align:left; width:1500px">
     Name: <?php echo $user_data['first_name'], " ",$user_data['last_name'];?><br>
     Age : <?php echo $user_data['age'];?><br>
 	E-mail: <?php echo $user_data['email'];?><br>
