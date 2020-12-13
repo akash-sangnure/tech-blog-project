@@ -8,6 +8,7 @@ session_start();
 		//something was posted
 		$first_name = $_POST['first_name'];
 		$first_name = $_POST['first_name'];
+		$email = $_POST['email'];
 		$age = $_POST['age'];
 		$user_name = $_POST['user_name'];
 		$password = $_POST['password'];
@@ -15,8 +16,8 @@ session_start();
 		if(!empty($user_name) && !empty($password)){
 			//save to database
 			$user_id = random_num(20);
-			$query = "insert into users(user_id, user_name, password, first_name, last_name, age) 
-			values('$user_id','$user_name','$password','$first_name','$last_name','$age');";
+			$query = "insert into users(user_id, user_name, password, first_name, last_name, age, email) 
+			values('$user_id','$user_name','$password','$first_name','$last_name','$age', '$email');";
 			mysqli_query($con,$query);
 			header("Location: login.php");
 			die(); 
@@ -40,6 +41,7 @@ session_start();
 			<div style="font-size: 20px; margin: 10px; color: #c3b9b9">Sign UP</div>
 			<input id = "text" type="text" name="first_name" placeholder="first name"><br><br>
 			<input id = "text" type="text" name="last_name" placeholder="last name"><br><br>
+			<input id = "text" type="email" name="email" placeholder="email"><br><br>
 			<input id = "text" type="text" name="age" placeholder="Age"><br><br>
 			<input id = "text" type="text" name="user_name" placeholder="User name"><br><br>
 			<input id = "text" type="password" name="password" placeholder="Password"><br><br>
