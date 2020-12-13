@@ -21,7 +21,7 @@
 					die(); 
 				}
 			}
-			echo "Wrong username or password!";
+			echo "<p style='color:white; text-align:center; font-size:30px;'>" . "Wrong username or password!" ."</p>";
 		}else{
 			echo "Please enter valid information";
 		}

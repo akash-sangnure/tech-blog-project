@@ -46,8 +46,6 @@ session_start();
 			<input id = "button" type="submit" value="Signup" ><br><br>
 			
 			<a href="login.php" style="text-decoration: none;color:red">click to Login</a>
-			
-			
 		</form>
 	</div>
 
