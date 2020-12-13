@@ -33,6 +33,10 @@ session_start();
 	<h3 id="box"style="text-left: center; color:white">
     Name: <?php echo $user_data['first_name'], " ",$user_data['last_name'];?><br>
     Age : <?php echo $user_data['age'];?><br>
+	E-mail: <?php echo $user_data['email'];?><br>
+	Bio: <?php echo $user_data['bio'];?><br>
+	Linkedin username: <?php echo $user_data['linkedin_url'];?><br>
+    Twitter username : <?php echo $user_data['twitter_uname'];?><br>
 	</div>
 
 

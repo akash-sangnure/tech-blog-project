@@ -17,7 +17,6 @@ body{
 #box{
 	position: relative;
 	top:100px;
-	width: 500px;
 	background-color: grey;
 	margin: auto;
 	width: 500px;
@@ -28,6 +27,7 @@ a{
 	color:white;
 	text-decoration: none;
 }
+
 hr{
 	height: 1px;
 	background-color: white;

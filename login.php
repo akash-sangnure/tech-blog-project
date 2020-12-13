@@ -8,7 +8,6 @@
 		//something was posted
 		$user_name = $_POST['user_name'];
 		$password = $_POST['password'];
-		
 		if(!empty($user_name) && !empty($password)){
 			//read from database
 			$query = "select * from users where user_name = '$user_name' limit 1";
