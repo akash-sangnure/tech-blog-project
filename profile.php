@@ -35,9 +35,6 @@ session_start();
     Age : <?php echo $user_data['age'];?><br>
 	</div>
 
-	<div>
-		<h1>sjdhjash</h1>
-	</div>
 
 
     
