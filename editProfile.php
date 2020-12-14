@@ -29,7 +29,7 @@ session_start();
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="background-color: #202a3c">
+<body>
 	
 	<nav class="navbar navbar-light bg-dark justify-content-between" >
 		<a style="color:white" class="navbar-brand" href="index.php">Home</a>

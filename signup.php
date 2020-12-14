@@ -33,7 +33,7 @@ session_start();
 	<title>Sign up</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="background-color: #202a3c">
+<body >
 	
 	
 	<div id = "box">

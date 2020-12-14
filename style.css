@@ -1,5 +1,10 @@
 body{
-	background-color:#12232E;
+	background-image: linear-gradient( 109.5deg,  rgba(229,233,177,1) 11.2%, rgba(223,205,187,1) 100.2% );
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
 }
 #text{
 	height: 25px;
@@ -14,17 +19,28 @@ body{
 	background-color: lightblue;
 	border: none;
 }
+h1 span{
+	background-color:lightgrey;
+}
 #box{
 	position: relative;
-	top:100px;
-	background-color: grey;
 	margin: auto;
 	width: 500px;
-	padding: 30px;
+	padding: 100px;
 }
-
+.main-header{
+	background-image: url("images/bench-accounting-nvzvOPQW0gc-unsplash-croppped.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:500px
+}
+.main-header-2{
+	text-align: center;
+	height:500px;
+}
 a{
-	color:white;
+	color:black;
 	text-decoration: none;
 }
 
@@ -34,14 +50,24 @@ hr{
 	border: none;
 }
 .grid-container {
-    display: grid;
+	position: relative;
+	display: grid;
     grid-template-columns: 1fr 5fr;
 	grid-gap: 20px;
+	
 }
 .grid-child-sidebar{
-	text-align: center;
-	background-color:#007CC7;
-	height: 100%;
+	position: relative;
+	
+	color:black;
+	height: 400px;
+	left:70px;
+}
+.vertical{
+	border-left: 2px solid black; 
+	height: 100%; 
+	position:absolute; 
+	left: 300px; 
 }
 .grid-child-content{
 	text-align: left;
@@ -60,3 +86,6 @@ hr{
     background-size: cover;
     padding: 0px;
 }
+
+
+
