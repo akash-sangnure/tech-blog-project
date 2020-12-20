@@ -59,20 +59,53 @@ session_start();
 	<h1 style = "color:brown; font-family:monospace; text-align:center" ><strong>Browse tutorials</strong></h1><br>
 	
 
-	<div class="grid-container">
-		<div class = "grid-child-sidebar">
-			<a style = "text-size-adjust:20px;" href="html files/html blog/htmlblog.php">HTML</a><br><br>
-			<a href="html files/css blog/cssblog.php">CSS</a><br><br>
-			<a href="html files/cpp blog/cppblog.php">C++</a><br><br>
-			<a href="html files/java blog/javablog.php">JAVA</a><br><br>
-			<a href="html files/c blog/cblog.php">C</a><br><br>
-			<a href="html files/python blog/pythonblog.php">PYTHON</a><br><br>
-		</div>
-		<div class = "vertical"></div> 
-        <div style = "color: black; padding:30px; padding-left : 400px">
-			<h2>Hello</h2>
+	<div class="wrap">
+            <div class="title">
+				<a href="html files\html blog\htmlblog.php"><img src="images\html-block-image.jpg" alt = "HTML block image"/></a>
+                <div class="text">
+                    <h1>HTML</h1>
+                    <p class="para">Learn HTML</p>
+                </div>                                
+            </div>
+            <div class="title">
+				<a href="html files\css blog\cssblog.php"><img src="images\CSS-block-image.jpg"/></a>
+                <div class="text">
+                    <h1>CSS</h1>
+                    <p class="para">Learn CSS</p>
+                </div>
+            </div>
+			<div class="title">
+				<a href="html files\python blog\pythonblog.php"><img src="images\Python-block-image.jpg"/></a>
+                <div class="text">
+                    <h1>PYTHON</h1>
+                    <p class="para">Learn Python</p>
+                </div>
+            </div>
+			
+			<br><br><br><br>
+
+			<div class="title">
+                <a href="html files\cpp blog\cppblog.php"><img src="images\C++-block-image.jpg"/></a>
+                <div class="text">
+                    <h1>C++</h1>
+                    <p class="para">Learn C++</p>
+                </div>
+			</div>
+			<div class="title">
+				<a href="html files\java blog\javablog.php"><img src="images\java-block-image.jpg"/></a>
+                <div class="text">
+                    <h1>JAVA</h1>
+                    <p class="para">Learn JAVA</p>
+                </div>                                
+            </div>
+            <div class="title">
+				<a href="html files\c blog\cblog.php"><img src="images\C-block-image.jpg"/></a>
+                <div class="text">
+                    <h1>C</h1>
+                    <p class="para">Learn C</p>
+                </div>
+			</div>
         </div>
-	</div>
 	
 	<div class="container">
     <section style="height:80px;"></section>
