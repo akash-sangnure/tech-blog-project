@@ -2,10 +2,8 @@
 session_start();
 	include("connection.php");
 	include("functions.php");
-
 	$user_data = check_login($con);
 ?>
-
 
 <!DOCTYPE html>
 <html>
@@ -13,53 +11,53 @@ session_start();
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title> Index </title>
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		<style>
 			<?php include 'style.css'; ?>
 		</style>
     </head>	
 </head>
 
-<body style="background-color:white">
-	<style>
-		body{
-			background-color:white;
-		}
-	</style>
-	<nav class="navbar navbar-light bg-dark justify-content-between" >
-		<a style="color:white" class="navbar-brand" href="index.php">Home</a>
-		<a style="color:white" class="navbar-brand" href="signup.php">Sign Up</a>
-		<a style="color:white" class="navbar-brand" href="login.php">Login</a>
-		<a style="color:white" class="navbar-brand" href="logout.php">Logout</a>
-		<a style="color:white" class="navbar-brand" href="profile.php">View profile</a>
-	</nav>
+<body class = "index-body">
+
 	<div class = "main-header">
-	<br><br><strong>
-	<h1 style="text-align:center; color:black; font-family:'Times new roman'">Hello, <?php echo $user_data['first_name'], " ",$user_data['last_name'];?> 
-	<br>Welcome to our Blog<br>Online learning website
-	</strong></h1>
+		<nav class="navbar navbar-light justify-content-between" >
+			<br>
+			<a style="color:black; " class="navbar-brand" href="signup.php">Edulogy</a>
+			<a href="index.php"><img class = "logo" src="images\edulogy-removebg-preview (1).png" alt = "logo"/></a>
+			<a style="color:black" class="navbar-brand" href="signup.php">Sign Up</a>
+			<a style="color:black" class="navbar-brand" href="login.php">Login</a>
+			<a style="color:black" class="navbar-brand" href="logout.php">Logout</a>
+			<a style="color:black" class="navbar-brand" href="profile.php">View profile</a>
+		</nav>
+		<br><br>
+		<strong>
+			<h1 style="text-align:center; color:black; font-family:'Times new roman'">Hello, <?php echo $user_data['first_name'], " ",$user_data['last_name'];?> 
+			<br>Welcome to our Blog<br>Online learning website
+		</strong></h1>
 	</div>
 	<br>
+	
 	<div class = "main-header-2" >
-		<img style = "float: left;height:450px;" src="images/brooke-lark-W1B2LpQOBxA-unsplash.jpg" alt="">
-		<h1 style = "color:brown; font-family:monospace" ><strong>OUR AWESOME FEATURES</strong></h1><br>
+		<img class = "main-header-2-img" src="images\device_01.png" alt="">
+		<h1 style = "color:brown; font-family:monospace;left:400px"><strong>OUR AWESOME FEATURES</strong></h1><br>
 		
-		<h4><ul style = "position:relative; text-align: left; left:100px">
+		<h4><ul style = "position:relative; text-align: left; left:400px">
 			<li>Short Explanation</li>
-			<li>Clear explanation</li>
+			<li>Clear Concepts</li>
 			<li>solved questions</li>
 			<li>questions for practice</li>
 		</ul><h4>
 	</div>
 	<h1 style = "color:brown; font-family:monospace; text-align:center" ><strong>Browse tutorials</strong></h1><br>
-		
-	<div>
-		
-	</div>
+	
 
 	<div class="grid-container">
 		<div class = "grid-child-sidebar">
@@ -74,7 +72,43 @@ session_start();
         <div style = "color: black; padding:30px; padding-left : 400px">
 			<h2>Hello</h2>
         </div>
+	</div>
+	
+	<div class="container">
+    <section style="height:80px;"></section>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Courses</h3>
+                        <ul>
+							<li><a href="html files/html blog/htmlblog.php">html 5</a></li>
+							<li><a href="html files/css blog/cssblog.php">css 3</a></li>
+							<li><a href="html files/cpp blog/cppblog.php">c++</a></li>
+							<li><a href="html files/java blog/javablog.php">java</a></li>
+							<li><a href="html files/c blog/cblog.php">c</a></li>
+							<li><a href="html files/python blog/pythonblog.php">python</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Team</h3>
+                        <ul>
+                            <li><a href="#">Aditya VSM</a></li>
+                            <li><a href="#">Akash Ashok Sangnure </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Edulogy</h3>
+                        <p>Edulogy is an online learning platform where you can learn computer science topics. We cover top programming laguages with short and clear explanations which even a beginner can understand.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Edulogy © 2020</p>
+            </div>
+        </footer>
     </div>
+
     
 </body>
 </html>

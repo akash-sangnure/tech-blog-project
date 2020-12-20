@@ -35,7 +35,6 @@ session_start();
 </head>
 <body >
 	
-	
 	<div id = "box">
 		<form method = "POST">
 			<div style="font-size: 20px; margin: 10px; color: #c3b9b9">Sign UP</div>
