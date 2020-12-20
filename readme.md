@@ -1,4 +1,4 @@
-****TECH BLOG SITE****
+****EDULOGY : A TECH BLOG SITE****
 
 
 
