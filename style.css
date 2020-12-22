@@ -4,26 +4,49 @@
 }
 
 #text{
+	border-left:none;
+    border-right:none;
 	height: 25px;
 	padding: 4px;
 	width : 100%;
-	border:solid thin #aaa;
-}
-#button{
-	padding: 10px;
-	width: 200px;
-	color: red;
-	background-color: lightblue;
-	border: none;
+	border:none;
+	fill: none;
+    font-size: 18px;
+	background:transparent;
 }
 h1 span{
-	background-color:lightgrey;
+	background-color:red;
 }
 #box{
+	background-color: #282d32;
 	position: relative;
+	top:100px;
 	margin: auto;
-	width: 500px;
-	padding: 100px;
+	width: 520px;
+	height:580px;
+	padding: 30px;
+}
+#box h1{
+	text-align:center;
+	color:aliceblue;
+	font-family:'Segoe UI';
+}
+#box #button{
+	position: relative;
+	left: 185px;
+	padding: 10px;
+	width: 150px;
+	border-radius: 10px;
+	color: #282d32;
+	font-size : 20px;
+	font-weight: bold;
+	font-family:'Segoe UI';
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+}
+#box a  {
+	color:white;
+	font-size: 15px;
+	float: left;
 }
 .main-header{
 	background-image: url("images/bench-accounting-nvzvOPQW0gc-unsplash-croppped.jpg");
@@ -245,4 +268,10 @@ hr{
 
 .code{
 	color: white;
+}
+
+/*signup-login*/
+.signup-body{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	background-attachment: fixed;
 }

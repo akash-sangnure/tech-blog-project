@@ -33,12 +33,12 @@ session_start();
 	<title>Sign up</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body >
+<body class = "signup-body">
 	
 	<div id = "box">
 		<form method = "POST">
-			<div style="font-size: 20px; margin: 10px; color: #c3b9b9">Sign UP</div>
-			<input id = "text" type="text" name="first_name" placeholder="first name"><br><br>
+			<h1>SignUP</h1>
+			<input id = "text" class = "form-control" type="text" name="first_name" placeholder="first name"><br><br>
 			<input id = "text" type="text" name="last_name" placeholder="last name"><br><br>
 			<input id = "text" type="email" name="email" placeholder="email"><br><br>
 			<input id = "text" type="text" name="age" placeholder="Age"><br><br>
@@ -46,9 +46,10 @@ session_start();
 			<input id = "text" type="password" name="password" placeholder="Password"><br><br>
 			<input id = "button" type="submit" value="Signup" ><br><br>
 			
-			<a href="login.php" style="text-decoration: none;color:red">click to Login</a>
+			<a href="login.php">Already have an account? <input id = "button" type="submit" value="Login" ></a>
 		</form>
 	</div>
+	
 
 </body>
 </html>
