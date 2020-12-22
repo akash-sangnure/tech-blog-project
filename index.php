@@ -85,7 +85,7 @@ session_start();
 			<div class="title">
                 <a href="html files\cpp blog\cppblog.php"><img src="images\C++-block-image.jpg"/></a>
                 <div class="text">
-                    <h1>C++</h1>
+                    <h7>C++</h7>
                     <p class="para">Learn C++</p>
                 </div>
 			</div>
